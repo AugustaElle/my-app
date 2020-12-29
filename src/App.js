@@ -13,11 +13,7 @@ export default function App() {
         <li>Humidity: {Math.round(response.data.main.humidity)}%</li>
         <li>Description: {response.data.weather[0].description}</li>
         <li>Wind: {response.data.wind.speed}km/h</li>
-        <li>
-          <img
-            src={`https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`}
-          />
-        </li>
+    
       </ul>
     );
   }
