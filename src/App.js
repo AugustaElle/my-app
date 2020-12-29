@@ -40,7 +40,7 @@ export default function App() {
         <input type="submit" value="Search" />
       </form>
       <h1>{temperature}</h1>
-      <footer>Coded by Leah L.  See my Source code on <a href="https://github.com/AugustaElle/my-app" rel="noopener noreferrer">Github</a> </footer>
+      <footer>Coded by Leah L.  See my Source code on <a href="https://github.com/AugustaElle/my-app" target="_blank" rel="noopener noreferrer">Github</a> </footer>
     </div>
   );
 }
